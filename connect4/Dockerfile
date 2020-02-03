@@ -10,4 +10,4 @@ WORKDIR /root/slack-connect-4-bot
 
 RUN npm install
 
-CMD bash -c "echo $TOKEN > token.txt && npm start"
+CMD npm start
